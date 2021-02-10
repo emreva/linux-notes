@@ -4,6 +4,12 @@
 
 Servislerin systemd üzerinden yönetilmesi nasıl olur ?
 
+Linux bilgisayarınızı her başlattığınızda, başlatma sistemi yüzlerce işlem başlatır. Bunu Linux açılırken  başlangıç ekranınızda görebilirsiniz .Grafiksel başlangıç ekranınızı gizlemek ve başlangıç mesajlarını görmek için `Escape` tuşuna basabilirsiniz.
+
+
+
+
+
 ```
 #! /bin/sh
 
