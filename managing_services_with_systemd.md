@@ -4,16 +4,23 @@
 
 Servislerin systemd üzerinden yönetilmesi nasıl olur ?
 
-'''console
+```
 #! /bin/sh
 
 ### BEGIN INIT INFO
+
 # Provides:		sshd
+
 # Required-Start:	$remote_fs $syslog
+
 # Required-Stop:	$remote_fs $syslog
+
 # Default-Start:	2 3 4 5
+
 # Default-Stop:
+
 # Short-Description:	OpenBSD Secure Shell server
+
 ### END INIT INFO
 
 set -e
@@ -30,6 +37,7 @@ if test -f /etc/default/ssh; then
 fi
 
 . /lib/lsb/init-functions
+```
 
-'''
+
 
